@@ -1,0 +1,128 @@
+header{
+    background: url('img/pretoriscado.jpg');
+}
+
+#logo{
+    width: 40%;
+    margin: 15px;
+}
+
+.caixa{
+    width: auto;
+    position: relative;
+    margin: 0 auto;
+}
+
+nav{
+    position: absolute;
+    top: 93px;
+    right: 320px;
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 35px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav a{
+
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: red;
+}
+
+
+
+.blocos li{
+    display: inline-block;
+    vertical-align: top;
+    border: 2px solid black;
+    border-radius: 15px;
+    box-sizing: border-box;
+    margin-inline: 12px;
+    height: 300px;
+}
+
+main li:hover{
+    color: red;
+}
+
+.blocos{
+    width: 1900px;
+    margin: 0 auto;
+    padding-top: 2%;
+    text-align: center;
+    display: inline-block;
+}
+
+/*
+.empecilhos{
+    height: 100px;
+    width: 261px;
+    margin: 10px;
+    background-image: url("img/empecilhos.png");
+    background-position: center;
+    background-size: cover;
+}
+
+
+.credito{
+    height: 100px;
+    width: 261px;
+    margin: 10px;
+    background-image: url("img/credito.png");
+    background-position: center;
+    background-size: cover;
+}
+
+.negociacao{
+    height: 100px;
+    width: 261px;
+    margin: 10px;
+    background-image: url("img/negociacao.png");
+    background-position: center;
+    background-size: cover;
+}
+*/
+
+.espacoimg{
+    position: relative;
+    margin-top: 40px;
+    color: red;
+}
+
+.descricao{
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10px;
+}
+
+.imagens{
+    width: 97%;
+    padding-top: 2px;
+}
+
+footer{
+	background: url('img/pretoriscado.jpg');
+	position: absolute;
+	width: 100%;
+    height: 100px;
+    text-align: center;
+    top: 2000px;
+}
+
+
+footer p{
+    margin-top: 22px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+}
